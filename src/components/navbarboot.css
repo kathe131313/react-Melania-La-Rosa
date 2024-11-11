@@ -1,0 +1,27 @@
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #af052f; 
+    color: white; 
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%; 
+    transform: translate(50%, -50%);
+  }
+
+  .car {
+    position: relative;
+    margin-right: 2%;
+    color:rgb(0, 1, 12)
+   
+  }
+  .container-fluid {
+    background: #bdc3fb;
+    
+  }
+  .ocion {
+    color: antiquewhite;
+  }
+  
+  
