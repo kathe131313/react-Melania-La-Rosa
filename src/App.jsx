@@ -8,7 +8,7 @@ function App() {
     <>
      
      <NavbarBoot/>
-     <ItemListContainer/>
+     <ItemListContainer greeting="Pronto estará lista la página"/>
     </>
   )
 }

@@ -1,9 +1,9 @@
 import React from "react";
 import Greeting from './Greeting';
 
-function ItemListContainer() {
+function ItemListContainer({greeting}) {
     return (
-        <Greeting mensaje= "Pronto estará lista nuestra página, en pocos días! "/>
+        <Greeting mensaje= {greeting}/>
 
     )
 }
