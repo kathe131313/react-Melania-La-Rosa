@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 25px;
+}
+.card {
+    height: 400px;
+    width: 200px;
+    background-color: rgb(169, 168, 230);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.style-servi {
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    
+}
+.imagen-servi {
+
+    height: 200px;  
+    width: 100%;    
+    object-fit: cover; 
+}
+.tamano-ima {
+    height: 400px;
+    width: 400px;
+    display: flex;
+ border-radius: 30px;
+ padding-top: 20px;
+}
+.custom-button {
+    background-color: #605ef5; /* Verde */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+.custom-button:hover {
+    background-color: rgb(54, 8, 179);
+    color: black;
+    border: 2px solid #4CAF50;
+  }
