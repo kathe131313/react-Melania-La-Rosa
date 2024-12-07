@@ -1,3 +1,7 @@
+#navbarScroll {
+  overflow-x: hidden;
+
+}
 .badge {
     position: absolute;
     top: 0;
@@ -8,20 +12,38 @@
     padding: 2px 6px;
     border-radius: 50%; 
     transform: translate(50%, -50%);
+    width: 100%;
   }
 
-  .car {
-    position: relative;
-    margin-right: 2%;
-    color:rgb(0, 1, 12)
-   
+  .bg-body-secondary {
+    width: 100%;
   }
-  .container-fluid {
-    background: #bdc3fb;
+  .container-fluid   {
+    width: 100%;
+    background: #6b66ac;
+    height: 23vh;   
+    
     
   }
-  .ocion {
-    color: antiquewhite;
+  .container-fluid  p {
+   color: rgb(209, 209, 151);
+      
   }
   
+  @media (max-width: 768px) {
+    .carri {
+    justify-content: end;
+     margin: 0 auto;
+    padding: 0;
+    max-width: 45%; 
+    #navbarScroll {
+      overflow-x: hidden;
+      max-width: 40%;
+    
+    }
+    
+   
+    
+    }
+  }
   

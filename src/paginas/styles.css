@@ -1,18 +1,30 @@
+
 .container {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 20px;
     min-height: 100vh;
-    padding: 25px;
+    
+
+    
 }
 .card {
     height: 400px;
-    width: 200px;
-    background-color: rgb(169, 168, 230);
+    width: 290px;
+    background-color: rgb(160, 159, 228);
     border-radius: 15px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
     
 }
 .style-servi {
@@ -23,21 +35,22 @@
 }
 .imagen-servi {
 
-    height: 200px;  
-    width: 100%;    
+    height: 100px;  
+    width: 100;    
     object-fit: cover; 
 }
 .tamano-ima {
-    height: 400px;
+    height: 500px;
     width: 400px;
     display: flex;
- border-radius: 30px;
- padding-top: 20px;
+ border-radius: 50px;
+
+ 
 }
 .custom-button {
-    background-color: #605ef5; /* Verde */
+ background-color: #6f6dee; 
   border: none;
-  color: white;
+  color: rgb(25, 16, 80);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -48,8 +61,23 @@
   cursor: pointer;
 
 }
-.custom-button:hover {
-    background-color: rgb(54, 8, 179);
-    color: black;
-    border: 2px solid #4CAF50;
+.d-block {
+   background-color:  rgba(255, 255, 255, 0.7);
+   color: cadetblue;
+}
+
+@media (max-width: 768px) {
+    .d-block {
+    
+    width: 100%;
+    height: 600px;
+    margin: 0%;
+    
+    left: 0;    
+    }
+    .texto {
+        height: 100px;
+        
+
+    }
   }

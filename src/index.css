@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+}
+main {
+    background: hwb(290 91% 7%);
+   width: 100%;
+   padding: 0%;
+    height: 60vh;
+    
+}

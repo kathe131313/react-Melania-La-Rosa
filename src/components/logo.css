@@ -1,8 +1,19 @@
-/* Logo.css */
+
 .logo-imag {
     height: 150px;
     width: 150px;
     padding: 0%;
     border-radius: 50%;
   }
-  
+
+  @media (max-width: 768px) {
+    .logo-imag {
+    height: 100px;
+    width: 100px;
+    margin: 0%;
+    position: relative;
+    left: 0;
+   
+    
+    }
+  }

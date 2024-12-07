@@ -1,10 +1,12 @@
-import {FaShoppingCart} from "react-icons/fa";
-import "./navbarboot.css"
-function CartWidget() {
+import React from "react";
+import "./cartwidget.css";
+function CartWidget({ cartCount }) {
+ 
   return (
-    <div className="car">
-        <FaShoppingCart size="40px"/>
-        <span className="badge">2</span>
+    <div className="car" lg={6} md={12}>
+
+      <i className="fas fa-shopping-cart"></i>
+        <span className={`badge ${cartCount > 0 ? "badge-full" : "badge-empty"}`}>{cartCount}</span>
     </div>
   )
 }

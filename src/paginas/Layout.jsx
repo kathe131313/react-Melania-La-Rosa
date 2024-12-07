@@ -1,11 +1,15 @@
 import React from "react";
 import NavbarBoot from '../components/NavBarBoot';
 import { Link,Outlet } from "react-router-dom";
-function Layout() {
+import Footer from "../components/Footer";
+function Layout({ cart, removeFromCart, calculateTotal }) {
   return (
     <>
-        <NavbarBoot />
-        <Outlet/>
+        <NavbarBoot cart={cart} removeFromCart = {removeFromCart} calculateTotal={calculateTotal} />
+        <main style={{ height: "100%", padding: "0", margin: "0"}}>
+        <Outlet />
+      </main>        
+        <Footer/>
     </>
   )     
 }

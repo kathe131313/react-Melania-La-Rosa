@@ -5,10 +5,10 @@ import './logo.css';
 
 function Logo() {
     return (
-        <div>
-            <img src={logo1} alt="Logo" className="logo-imag" />
+       
+            <img src={logo1} alt="Logo" className="logo-imag d-flex align-items-center navbar-brand m-3" />
 
-        </div>
+        
     );
 }
 export default Logo;
