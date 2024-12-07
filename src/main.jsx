@@ -7,12 +7,12 @@ import App from './App.jsx'
 import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-  apiKey: "AIzaSyAa0E_T-qmWHT0UGCcgFOVkoFL5EpIMblc",
-  authDomain: "serviceclara.firebaseapp.com",
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_DOMAIN,
   projectId: "serviceclara",
   storageBucket: "serviceclara.firebasestorage.app",
   messagingSenderId: "319594850924",
-  appId: "1:319594850924:web:3872ad879790e477fd0649"
+  appId: import.meta.env.VITE_APPID
 };
 initializeApp(firebaseConfig);
 
