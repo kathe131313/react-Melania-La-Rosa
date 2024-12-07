@@ -3,11 +3,6 @@
 ## Estructura del Proyecto
 
 
-
-
-
-Si al pegarlo en Markdown las líneas no se ven bien (porque las tabulaciones o caracteres no están alineados), puedes usar un formato más plano:
-
 ```
 ## Estructura del Proyecto
 
